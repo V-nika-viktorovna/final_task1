@@ -3,9 +3,9 @@ name: Django CI
 on: [push, pull_request]
 
 jobs:
-
   lint:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out code
         users: actions/checkout@v3
